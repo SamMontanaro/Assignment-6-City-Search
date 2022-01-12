@@ -25,7 +25,7 @@ function App() {
     <div className="App text-center">
       <h1 className='p-3 bg-dark text-light'>City Search</h1>
       <div className='d-flex flex-row justify-content-center align-items-center'>
-        <label htmlFor="zip" className="form-label px-3"><b>City:</b></label>
+        <label htmlFor="city" className="form-label px-3"><b>City:</b></label>
         <div className='row d-flex justify-content-center'>
           <div>
             <input type="text" id="city" className="form-control text-center my-2" onChange={fetchPost}/>
